@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.max-1 {
+  max-width: 80%;
+  margin: auto;
+}
+.logo a {
+  font-weight: 600;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+.logo a img{
+  height: 80px;
+  width: 80px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
+  background-color: rgba(255, 250, 250);
+  position: sticky;
+  top: 0;
+}
+.mid-nav a {
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 550;
+}
+.mid-nav a:hover {
+  color: orange;
+}
+.left-nav .same {
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 10px;
+  border: 1.5px solid black;
+  color: black;
+  background-color: transparent;
+}
+.left-nav button:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0px;
+  background-color: rgba(255, 250, 250);
+}
+.cont-img img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.content {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.content h1 {
+  margin-bottom: 10px;
+}
+
+.feat-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px 0;
+}
+.feature {
+  background-color: rgba(255, 250, 250);
+  padding: 20px 0;
+}
+.feature-content {
+  margin-left: 30px;
+}
+.feature h1 {
+  margin: 20px;
+}
+
+.color {
+  border: 1px solid black;
+}
+.feature-content h1 {
+  margin-top: 20px;
+}
+.footer {
+  background-color: rgba(255, 250, 250);
+}
+.footer p {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+}
+.barger span {
+  width: 15px;
+  height: 3px;
+  background-color: black;
+  display: block;
+  margin: 5px;
+}
+.barger span:nth-child(2) {
+  width: 30px;
+}
+.barger {
+  display: none;
+}
+
+
+
+
